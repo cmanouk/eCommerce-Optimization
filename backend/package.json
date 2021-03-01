@@ -1,0 +1,33 @@
+{
+  "name": "sdc-the_reactors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seed:csv": "node database/helpers/seeding.js",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theReactors/cmanouk-sdc-product_images.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theReactors/cmanouk-sdc-product_images/issues"
+  },
+  "homepage": "https://github.com/theReactors/cmanouk-sdc-product_images#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^5.3.1",
+    "newrelic": "^7.1.1",
+    "node-cache": "^5.1.2",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

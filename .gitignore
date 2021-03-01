@@ -1,0 +1,7 @@
+backend/node_modules
+backend/database/config.js
+backend/database/seeding/data
+notes.txt
+backend/newrelic.js
+backend/newrelic_agent.log
+env

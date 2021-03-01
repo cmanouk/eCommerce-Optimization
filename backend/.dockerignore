@@ -1,0 +1,5 @@
+newrelic.js
+newrelic_agent.log
+database/seeding
+database/config.js
+node_modules
