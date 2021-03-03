@@ -54,3 +54,5 @@ app.post('/create/listing', (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`App is up on ${PORT}`));
+
+module.exports = app;
